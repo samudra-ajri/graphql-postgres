@@ -1,0 +1,36 @@
+{
+  "name": "graphql-postgres",
+  "version": "1.0.0",
+  "description": "Simple CRUD blog server using graphQL, express, and postgresql ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samudra-ajri/graphql-postgres.git"
+  },
+  "author": "Samudra Ajri Kifli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samudra-ajri/graphql-postgres/issues"
+  },
+  "homepage": "https://github.com/samudra-ajri/graphql-postgres#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
